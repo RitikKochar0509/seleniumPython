@@ -1,0 +1,190 @@
+1534178729045	geckodriver	INFO	geckodriver 0.20.0 (0ac3698a74a7b1a742682b8e704f1f418df827ed 2018-03-13)
+1534178729061	geckodriver	INFO	Listening on 127.0.0.1:54266
+1534178729529	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\hdo1228\\AppData\\Local\\Temp\\rust_mozprofile.97mV7Emlj7o6"
+1534178730031	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1534178730937	Marionette	INFO	Enabled via --marionette
+[Parent 1400] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1534178736370	Marionette	INFO	Listening on port 54272
+1534178736518	Marionette	WARN	TLS certificate errors will be ignored for this session
+1534178736560	Marionette	DEBUG	Register listener.js for window 6442450945
+1534178736604	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1534178740903	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1534178740903	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: http://demoqa.com/registration/, line 514: ReferenceError: accordion is not defined
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109033876-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109033876-1, line 69: unreachable code after return statement
+1534178748121	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://demoqa.com/registration/"
+1534178748369	Marionette	DEBUG	Received DOM event "pageshow" for "http://demoqa.com/registration/"
+[Parent 1400] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8416] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8308] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 8444] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1534179178374	Marionette	INFO	Enabled via --marionette
+[Child 7184] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7184] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2400FC,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/extension-process-script.js, line 339: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+1534179180840	Marionette	INFO	Listening on port 54384
+1534179181561	Marionette	WARN	TLS certificate errors will be ignored for this session
+1534179181596	Marionette	DEBUG	Register listener.js for window 4294967297
+1534179181635	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1534179183975	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1534179183975	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: http://demoqa.com/, line 515: ReferenceError: accordion is not defined
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109033876-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109033876-1, line 69: unreachable code after return statement
+1534179194551	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://demoqa.com/"
+1534179195590	Marionette	DEBUG	Received DOM event "pageshow" for "http://demoqa.com/"
+[Child 4400] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4400] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9204] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9204] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 8904] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1534179246592	Marionette	INFO	Enabled via --marionette
+[Parent 7652] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6268] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1534179249978	Marionette	INFO	Listening on port 54467
+1534179250309	Marionette	WARN	TLS certificate errors will be ignored for this session
+1534179250347	Marionette	DEBUG	Register listener.js for window 4294967297
+1534179250382	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1534179252444	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1534179252444	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: http://demoqa.com/, line 515: ReferenceError: accordion is not defined
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109033876-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109033876-1, line 69: unreachable code after return statement
+1534179266406	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://demoqa.com/"
+1534179274983	Marionette	DEBUG	Received DOM event "pageshow" for "http://demoqa.com/"
+1534179275096	Marionette	DEBUG	Received DOM event "beforeunload" for "http://demoqa.com/"
+1534179277071	Marionette	DEBUG	Received DOM event "pagehide" for "http://demoqa.com/"
+1534179277072	Marionette	DEBUG	Received DOM event "unload" for "http://demoqa.com/"
+JavaScript error: http://demoqa.com/registration/, line 514: ReferenceError: accordion is not defined
+1534179277286	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967301"
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109033876-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109033876-1, line 69: unreachable code after return statement
+1534179277418	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://demoqa.com/registration/"
+1534179277540	Marionette	DEBUG	Received DOM event "pageshow" for "http://demoqa.com/registration/"
+1534179283000	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1534179283234	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1534179288242	Marionette	INFO	New connections will no longer be accepted
+[Child 8460] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8460] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1534179288329	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+[Parent 7652] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1534179289432	geckodriver::marionette	ERROR	Failed to stop browser process
+1534180013163	geckodriver	INFO	geckodriver 0.20.0 (0ac3698a74a7b1a742682b8e704f1f418df827ed 2018-03-13)
+1534180013178	geckodriver	INFO	Listening on 127.0.0.1:54606
+1534180018248	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\hdo1228\\AppData\\Local\\Temp\\rust_mozprofile.6U5mBNRIU2aa"
+1534180018560	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1534180019315	Marionette	INFO	Enabled via --marionette
+[Parent 5284] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1534180022215	Marionette	INFO	Listening on port 54614
+1534180022565	Marionette	WARN	TLS certificate errors will be ignored for this session
+1534180022602	Marionette	DEBUG	Register listener.js for window 4294967297
+1534180022639	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1534180024969	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1534180024970	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: http://demoqa.com/, line 515: ReferenceError: accordion is not defined
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109033876-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109033876-1, line 69: unreachable code after return statement
+1534180036465	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://demoqa.com/"
+1534180039901	Marionette	DEBUG	Received DOM event "pageshow" for "http://demoqa.com/"
+1534180040030	Marionette	DEBUG	Received DOM event "beforeunload" for "http://demoqa.com/"
+1534180041131	Marionette	DEBUG	Received DOM event "pagehide" for "http://demoqa.com/"
+1534180041132	Marionette	DEBUG	Received DOM event "unload" for "http://demoqa.com/"
+1534180041287	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967301"
+JavaScript error: http://demoqa.com/registration/, line 514: ReferenceError: accordion is not defined
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109033876-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109033876-1, line 69: unreachable code after return statement
+1534180041540	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://demoqa.com/registration/"
+1534180041734	Marionette	DEBUG	Received DOM event "pageshow" for "http://demoqa.com/registration/"
+[Parent 5284] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8740] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8740] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 5284] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5092] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1534180209694	Marionette	INFO	Enabled via --marionette
+[Child 9532] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9532] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1534180212545	Marionette	INFO	Listening on port 54719
+1534180212956	Marionette	WARN	TLS certificate errors will be ignored for this session
+1534180212993	Marionette	DEBUG	Register listener.js for window 4294967297
+1534180213029	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1534180217112	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1534180217112	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: http://demoqa.com/, line 515: ReferenceError: accordion is not defined
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109033876-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109033876-1, line 69: unreachable code after return statement
+1534180235695	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://demoqa.com/"
+1534180237705	Marionette	DEBUG	Received DOM event "pageshow" for "http://demoqa.com/"
+1534180237823	Marionette	DEBUG	Received DOM event "beforeunload" for "http://demoqa.com/"
+1534180240999	Marionette	DEBUG	Received DOM event "pagehide" for "http://demoqa.com/"
+1534180241003	Marionette	DEBUG	Received DOM event "unload" for "http://demoqa.com/"
+1534180241123	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967301"
+JavaScript error: http://demoqa.com/registration/, line 514: ReferenceError: accordion is not defined
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109033876-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109033876-1, line 69: unreachable code after return statement
+1534180241354	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://demoqa.com/registration/"
+1534180241730	Marionette	DEBUG	Received DOM event "pageshow" for "http://demoqa.com/registration/"
+1534180247084	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1534180247318	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1534180247583	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1534180247848	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+[Child 7880] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7880] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+lla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\hdo1228\\AppData\\Local\\Temp\\rust_mozprofile.UE4IRogYNyrD"
+1534180314024	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1534180314808	Marionette	INFO	Enabled via --marionette
+[Child 7640] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7640] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1534180317878	Marionette	INFO	Listening on port 54841
+1534180318014	Marionette	WARN	TLS certificate errors will be ignored for this session
+1534180318061	Marionette	DEBUG	Register listener.js for window 4294967297
+1534180318106	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1534180319577	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1534180319577	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: http://demoqa.com/, line 515: ReferenceError: accordion is not defined
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109033876-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109033876-1, line 69: unreachable code after return statement
+1534180336680	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://demoqa.com/"
+1534180349385	Marionette	DEBUG	Received DOM event "pageshow" for "http://demoqa.com/"
+1534180349482	Marionette	DEBUG	Received DOM event "beforeunload" for "http://demoqa.com/"
+1534180352709	Marionette	DEBUG	Received DOM event "pagehide" for "http://demoqa.com/"
+1534180352710	Marionette	DEBUG	Received DOM event "unload" for "http://demoqa.com/"
+JavaScript error: http://demoqa.com/registration/, line 514: ReferenceError: accordion is not defined
+1534180352925	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967301"
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109033876-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109033876-1, line 69: unreachable code after return statement
+1534180353074	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://demoqa.com/registration/"
+1534180355939	Marionette	DEBUG	Received DOM event "pageshow" for "http://demoqa.com/registration/"
+1534180361315	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1534180361549	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1534180361830	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1534180362095	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1534180362375	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1534180362657	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1534180367759	Marionette	INFO	New connections will no longer be accepted
+[Child 9388] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1534180367850	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+[Parent 7816] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7632] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GPU 5412] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1534180369371	geckodriver::marionette	ERROR	Failed to stop browser process
