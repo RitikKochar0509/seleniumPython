@@ -579,3 +579,41 @@ JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-55961911-1, l
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
 1534162638952	geckodriver::marionette	ERROR	Failed to stop browser process
+1534163052566	geckodriver	INFO	geckodriver 0.20.0 (0ac3698a74a7b1a742682b8e704f1f418df827ed 2018-03-13)
+1534163052584	geckodriver	INFO	Listening on 127.0.0.1:60609
+1534163053170	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\hdo1228\\AppData\\Local\\Temp\\rust_mozprofile.2evO7wUvRrWx"
+1534163053557	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1534163054460	Marionette	INFO	Enabled via --marionette
+[Parent 7980] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14240] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14240] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1534163057746	Marionette	INFO	Listening on port 60619
+1534163057919	Marionette	WARN	TLS certificate errors will be ignored for this session
+1534163057975	Marionette	DEBUG	Register listener.js for window 4294967297
+1534163058036	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1534163059256	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1534163059256	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-55961911-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-55961911-1, line 69: unreachable code after return statement
+1534163061264	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://pypi.org/"
+1534163062729	Marionette	DEBUG	Received DOM event "pageshow" for "https://pypi.org/"
+1534163064883	Marionette	DEBUG	Received DOM event "beforeunload" for "https://pypi.org/"
+1534163065907	Marionette	DEBUG	Received DOM event "pagehide" for "https://pypi.org/"
+1534163065907	Marionette	DEBUG	Received DOM event "unload" for "https://pypi.org/"
+1534163066375	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://pypi.org/search/?q=selenium"
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-55961911-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-55961911-1, line 69: unreachable code after return statement
+1534163066860	Marionette	DEBUG	Received DOM event "pageshow" for "https://pypi.org/search/?q=selenium"
+1534163071886	Marionette	INFO	New connections will no longer be accepted
+[Child 13456] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13456] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1460] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GPU 9940] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: (msgtype=0x440006,name=PImageBridge::Msg_WillClose) Channel error: cannot send/recv
+
+1534163074138	geckodriver::marionette	ERROR	Failed to stop browser process
