@@ -10,21 +10,7 @@ driver.get("http://www.python.org")
 assert "Python" in driver.title
 
 print(driver.title)
-"""
-driver.implicitly_wait(5)
-driver.maximize_window()
-driver.delete_all_cookies()
-
-elem = driver.find_element_by_name("q")
-elem.clear()
-print("element found q " );
-elem.send_keys("pycon")
-elem.send_keys(Keys.RETURN)
-assert "No results found." not in driver.page_source
 
 
 
-#D:\Automation Tools\python\seleniumPython\driver\geckodriver.exe
-
-"""
 driver.close()
