@@ -617,3 +617,27 @@ JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-55961911-1, l
 ###!!! [Child][MessageChannel::SendAndWait] Error: (msgtype=0x440006,name=PImageBridge::Msg_WillClose) Channel error: cannot send/recv
 
 1534163074138	geckodriver::marionette	ERROR	Failed to stop browser process
+1534918684256	geckodriver	INFO	geckodriver 0.20.0 (0ac3698a74a7b1a742682b8e704f1f418df827ed 2018-03-13)
+1534918684269	geckodriver	INFO	Listening on 127.0.0.1:55294
+1534918684851	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\hdo1228\\AppData\\Local\\Temp\\rust_mozprofile.vOBLrEtogZPN"
+1534918685431	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1534918686569	Marionette	INFO	Enabled via --marionette
+1534918690981	Marionette	INFO	Listening on port 55300
+1534918691188	Marionette	WARN	TLS certificate errors will be ignored for this session
+1534918691246	Marionette	DEBUG	Register listener.js for window 6442450945
+1534918691284	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1534918691396	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1534918691397	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-55961911-1, line 69: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-55961911-1, line 69: unreachable code after return statement
+1534918698612	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "6442450945"
+[Parent 6268] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10504] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10348] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10348] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GPU 9392] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1534918699880	geckodriver::marionette	ERROR	Failed to stop browser process
